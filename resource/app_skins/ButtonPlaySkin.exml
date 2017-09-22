@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ButtonPlaySkin" states="up,down,disabled,paused_up" minHeight="10" minWidth="10" xmlns:e="http://ns.egret.com/eui">
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8"
+             size="20"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center"/>
+    <e:Image id="iconDisplay" source.up="play_png" source.down="play_png" source.paused_up="pause_png" left="0" right="0" top="0" bottom="0"/>
+</e:Skin>

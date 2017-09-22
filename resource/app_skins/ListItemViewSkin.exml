@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListItemViewSkin" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="sel,normal"  width.normal="266" width="266" height.normal="80" height.sel="80" height="80">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image id="img_bg" scale9Grid="2,2,10,9" anchorOffsetX="0" anchorOffsetY="0" left="0" scaleX="1" scaleY="1" top="0" bottom="0" width="259" width.normal="259" left.normal="0" top.normal="0" bottom.normal="0" source="listItemBg0_png" width.sel="266" source.normal="bg_list_png" scale9Grid.normal="2,2,6,6" source.sel="bg_list_selected_png" scale9Grid.sel="2,11,5,20"/>
+		<e:Label id="lab_name" scaleX="1" scaleY="1" left="10" top="10"  text="" anchorOffsetY="0" height="37" anchorOffsetX="0" right="25" size="16" lineSpacing="8" size.sel="16"/>
+		<e:Label id="lab_len" text="--:--" scaleX="1" scaleY="1" size="20" textAlign="right" bottom="10" left="10" textColor.sel="0x999999" size.sel="15" size.normal="15" textColor.normal="0x999999"/>
+		<e:Label text="Playing" includeIn="sel" size="15" textColor="0x999999" bottom="12" right="20"/>
+	</e:Group>
+</e:Skin>

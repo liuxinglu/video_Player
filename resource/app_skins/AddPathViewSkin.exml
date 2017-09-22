@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AddPathViewSkin" width="940" height="42" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ui="lxlVideo.ui.*">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" height="36" rotation="0.03" scaleX="1" scaleY="1" left="0" right="156" source="bg_url_png" scale9Grid="4,4,29,30" verticalCenter="0"/>
+	<e:TextInput id="txt_path" height="34" textColor="0xf4eded" prompt="Paste link here.. e.g. http:s//www.youtube.com/watch?v=e-OfSWE9uV4" anchorOffsetY="0" anchorOffsetX="0" width="829.01" scaleX="1" scaleY="1" left="2" verticalCenter="0"/>
+	<ui:CButton id="btn_submit" label="Add Video URL" anchorOffsetX="0" width="121" anchorOffsetY="0" height="39" right="20" verticalCenter="0"/>
+</e:Skin>
